@@ -1,0 +1,23 @@
+{
+  "name": "marigold-park",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tools/journeys.mjs && node tools/simtest.mjs"
+  },
+  "dependencies": {
+    "morphdom": "^2.7.8",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.2"
+  },
+  "description": "A small, playable theme park. Run the rides, set prices, and follow a day in the park.",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
